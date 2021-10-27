@@ -1,9 +1,13 @@
 body{
-    background-color: forestgreen;
+    background:url(dino.jpg);
 }
 input{
-    background-color: purple;
+    background-color: whitesmoke;
     text-emphasis-color: black;
+}
+textarea{
+    background-color: whitesmoke;
+    text-emphasis-color: black;    
 }
 
 
