@@ -25,23 +25,28 @@
                 <legend>Ingrese tus datos</legend>
                 <div>
                     <label for="nombre-txt">Nombre</label>
-                    <input type="text" placeholder="Ingrese su nombre" id="nombre-txt">
+                    <input required type="text" placeholder="Ingrese su nombre" id="nombre-txt">
                     <label for="apellido-txt">Apellido</label>
-                    <input type="text" placeholder="Ingrese su apellido" id="apellido-txt">
+                    <input required type="text" placeholder="Ingrese su apellido" id="apellido-txt">
 
                 </div>
                 <div>
                     <label for="correo-txt">Correo</label>
-                    <input type=" email" placeholder="Ingrese su correo" id="correo-txt">
+                    <input required type=" email" placeholder="Ingrese su correo" id="correo-txt">
                 </div>
                 <div>
                     <label for="mensaje-txt">Mensaje</label>
-                    <textarea  id="mensaje-txt" cols="50" rows="6"></textarea>
+                    <textarea required id="mensaje-txt" cols="50" rows="6"></textarea>
                 </div>
                 <div>
                     <label for="ofertas-rb">Esta interesado en las ofertas?</label>
-                    <input type="radio" />Si
-                    <input type="radio" />No
+                    <input name="ofertas-rb" checked type="radio" />Si
+                    <input name="ofertas-rb" type="radio" />No
+                </div>
+                <div>
+                    <label for="condiciones-chx">Acepto terminos y condiciones</label>
+                    <input required type="checkbox"  id="condiciones-chx">
+                    
                 </div>
                 <div>
                     <button type="submit">Enviar</button>
